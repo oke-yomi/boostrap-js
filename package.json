@@ -9,10 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@100mslive/react-native-hms": "^1.7.0",
+    "@config-plugins/react-native-webrtc": "^7.0.0",
+    "@livekit/react-native": "^1.1.2",
+    "@livekit/react-native-webrtc": "^104.0.1",
+    "eas-cli": "^3.16.0",
     "expo": "~48.0.18",
+    "expo-av": "~13.2.1",
+    "expo-camera": "~13.2.1",
+    "expo-dev-client": "~2.2.1",
+    "expo-media-library": "~15.2.3",
+    "expo-permissions": "~14.1.1",
     "expo-status-bar": "~1.4.4",
+    "global": "^4.4.0",
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-native": "0.71.8",
+    "react-native-webrtc": "^111.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

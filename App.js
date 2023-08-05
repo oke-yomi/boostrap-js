@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StatusBar, StyleSheet, View } from "react-native";
+// import { registerGlobals } from "@livekit/react-native";
+import { Participant, Room, Track } from 'livekit-client';
+import { useRoom, AudioSession, VideoView } from '@livekit/react-native';
 
 export default function App() {
+  // registerGlobals();
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#EFF7FF" }}>
+      <StatusBar barStyle={"dark-content"} />
+
+      <View>
+        <Text>Hello</Text>
+      </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
